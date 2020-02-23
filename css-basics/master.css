@@ -1,0 +1,33 @@
+/*body{
+    background: url(/html-basics/wallpaper);
+}*/
+
+div{
+    background:blue;
+    border: red 10px dashed;
+}
+
+p{
+    color: yellow;
+
+}
+
+span{
+    background: red;
+    color: black;
+}
+h1{
+    color:blue;
+}
+
+li{
+    color: rgb(30,50,100);
+}
+
+
+
+
+h4{
+
+    color: rgba(13,90,140,1)
+}
