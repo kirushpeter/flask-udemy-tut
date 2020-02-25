@@ -73,9 +73,44 @@ print(d['key1'])
 salaries = {'john':20,'sally':30,'sammy':15}
 print(salaries['sally'])
 
+#tuples - immutable (1,2,3)
+
+t = (1,2,3)
+print(t[0])
+#sets -unordered collections of unique elements
+
+x = set()
+
+print(x)
+
+x.add(1)
+x.add(8)
+
+print(x)
+
+s = "flask"
+print(s[0])
+print(s[2:])
+print(s[1:4])
+print(s[-1])
+print(s[::-1])
 
 
+l = [3,7,[1,4,'hello']]
+
+l[2][2] = "goodbye"
+
+print(l)
+
+mylistt = [1,1,1,1,1,2,2,2,2,3,3,3,3] 
+
+print(set(mylistt))
+
+age = 4
+
+name = "sammy"
+
+print(f"hello my dog's name is {name} and he is {age} years old")
 
 
-
-
+ 
